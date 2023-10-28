@@ -3,5 +3,5 @@ def is_unique(x):
     return len(x) == (set(x))
 
 if __name__ == '__main__':
-    print(is_unique(input()))
+    print(is_unique([input().split()]))
     
